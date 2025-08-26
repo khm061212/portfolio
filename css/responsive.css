@@ -1,0 +1,244 @@
+/* 기본 반응형 시작점 */
+
+@media screen and (max-width: 1440px) {
+    .container {
+        padding: 1.25rem 5rem 0 5rem;
+        /* 패딩 축소 */
+    }
+
+    .project,
+    .design {
+        padding: 1.25rem 5rem 9.375rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        padding: 1.25rem 3rem 0 3rem;
+    }
+
+    .project,
+    .design {
+        padding: 1.25rem 3rem 9.375rem 3rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 1.25rem 2rem 0 2rem;
+    }
+
+    .project,
+    .design {
+        padding: 1.25rem 2rem 6.25rem 2rem;
+    }
+
+    .design-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intro>.intro-1>div:nth-child(1) {
+        font-size: 4.5rem;
+        /* 타이틀 크기 축소 */
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-box {
+        margin-bottom: 200px;
+    }
+
+    .text-box {
+        margin-top: 15px;
+    }
+
+    .text-box-1,
+    .text-box-2 {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    .nav-1 {
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 1rem;
+    }
+
+    .nav {
+        height: 100px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-box {
+        margin-bottom: 200px;
+    }
+
+    .text-box-1,
+    .text-box-2 {
+        margin-bottom: 50px;
+    }
+
+    .container {
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+
+    .project,
+    .design {
+        padding: 1rem 1.5rem 5rem 1.5rem;
+    }
+
+    .nav-1 {
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 1rem;
+    }
+
+    .nav {
+        height: 100px;
+        padding: 0;
+    }
+
+    .nav-2 {
+        gap: 4rem;
+    }
+
+    .intro {
+        padding-top: 25%;
+        text-align: center;
+    }
+
+    .intro>.intro-1>div:nth-child(1) {
+        font-size: 3rem;
+    }
+
+    .text>p {
+        font-size: 1.125rem;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .design-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .mySwiper {
+        width: 15rem;
+    }
+
+    .swiper-slide {
+        width: 15rem !important;
+        height: 15rem;
+    }
+
+    .project-card>img,
+    .design-card img {
+        aspect-ratio: auto;
+        /* 원본 비율 유지 */
+        object-fit: contain;
+        /* 레터박스 허용 */
+        background: #fff;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    html {
+        font-size: 14px;
+    }
+
+    .text-box-3 ul {
+        gap: 0.1rem;
+    }
+
+    .nav-1>li:nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .nav-2>li {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    html {
+        font-size: 12px;
+    }
+
+    .nav-1>li:nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .nav-2>li {
+        font-size: 1.2rem;
+    }
+
+    .nav-1 {
+        height: 50px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .nav {
+        height: 100px;
+        padding: 0;
+    }
+
+    .nav-1>li:nth-child(1) {
+        font-size: 1.5rem;
+    }
+
+    .nav-2>li {
+        font-size: 1.2rem;
+    }
+
+    .project,
+    .design {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .intro>.intro-1>div:nth-child(1) {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+
+    .text>p {
+        font-size: 1rem;
+    }
+
+
+    .mySwiper {
+        width: 12rem;
+    }
+
+    .swiper-slide {
+        width: 12rem !important;
+        height: 12rem;
+    }
+}
